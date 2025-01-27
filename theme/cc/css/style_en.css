@@ -1,0 +1,90 @@
+* { word-break: normal!important; }
+
+#header .gnb_w { width: 850px; }
+.stW#header .gnb_w { width: 830px; }
+#header .mypage { right: -200px; }
+.stW#header .mypage { right: -184px; }
+.sub_tit .t1 { font-size: 1.75em; }
+
+.step_w .txt_w .inner { max-width: 700px; width: 700px; }
+
+.cc_intro_w .txt_w { padding-top: 93px; }
+.cc_intro_w .txt_w .t2 { margin-top: 111px; }
+
+.mypage_w .inner.contents_m ul li .t5 { font-size: 1rem; }
+.mypage_w .inner.contents_m ul li .t3 { max-width: 91px; width: 91px; margin-right: 14px; }
+
+.mypage_w .inner.music_m ul li .num { margin-right: 13px; }
+.mypage_w .inner.music_m ul li .img { margin-right: 13px; }
+
+.n_sub_nav > ul > li > div { width: 200px; }
+.n_sub_nav > ul > li p { width: 200px; }
+
+#contents .des_w .card_des .inner .txt_w .b_st { width: 718px; }
+
+#header .chrono_pass_btn .inner { width: 190px; }
+#header .chrono_pass_btn .inner span { margin-left: 10px; }
+
+@-ms-viewport{width:device-width}
+
+@media screen and (max-width: 1600px){
+
+
+}
+
+@media screen and (max-width: 1400px){
+#header .location_w { width: 100%; text-align: center; }
+#header .location_w .inner { margin-right: 0; }
+#header .fix_top_btn { left: auto; right: 15px; }
+#header .gnb_w { width: 100%; max-width: 100%; border-radius: 0; }
+.stW#header .gnb_w { width: 100%!important; }
+#header .mypage { right: 15px; top: 100px; }
+.stW#header .mypage { right: 15px; }
+#header .gnb .dp1 { height: 90px; }
+
+#header .logo { width: 240px; }
+
+#header .logo a { height: 80px; }
+#header .gnb_w { text-align: right; }
+#header .logo { left: 0; margin-left: 25px; }
+
+#header .gnb { padding-right: 25px; box-sizing: border-box; }
+
+#contents .rank_w .n_rank .new_icon { left: -15px; top: -16px; }
+
+
+#header .lang_btn { right: 0; top: 117px; }
+#header .logout { right: 0; top: 177px; }
+#header .admin_btn { right: 0; top: 237px; }
+
+
+
+}
+
+
+@media screen and (max-width: 1024px){
+#header .logo { left: -15px; margin-left: 0; }
+.cc_intro_w .txt_w .t2 { width: 422px; }
+.cc_intro_w { padding-left: 166px; }
+.cc_intro_w .txt_w .t1 { display: block; }
+.sub_tit .t1 { font-size: 1.313em; }
+}
+
+@media screen and (max-width: 600px){
+.cc_intro_w .txt_w .t2 { width: 300px; }
+}
+
+@media screen and (max-width: 480px){
+.cc_intro_w .cc_img { width: 176px; top: -7px; left: -57px; }
+.cc_intro_w { padding-left: 84px; }
+#header .chrono_pass_btn .inner { width: 170px!important; }
+#header .chrono_pass_btn .inner span { margin-left: 8px!important; }
+
+}
+
+@media screen and (max-width: 400px){
+.cc_intro_w .txt_w .t1 { width: 204px; }
+.cc_intro_w .txt_w .t2 { width: 282px; margin-top: 61px!important; }
+.cc_intro_w { padding-left: 38px; }
+.cc_intro_w .cc_img { left: -91px; }
+}

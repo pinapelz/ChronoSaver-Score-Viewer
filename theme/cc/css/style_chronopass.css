@@ -1,0 +1,113 @@
+@-ms-viewport{width:device-width}
+
+@media screen and (max-width: 1440px){
+#header .chrono_pass_btn { bottom: 84px; margin-left: 0; transform: translate(-50%, 0); }
+#header .chrono_pass_btn a { margin-left: 0!important; }
+}
+
+@media screen and (max-width: 1024px){
+.chrono_pass_modal .cha_bg_1,
+.chrono_pass_modal .cha_bg_2,
+.chrono_pass_modal .cha_bg_3,
+.chrono_pass_modal .cha_bg_4,
+.chrono_pass_modal .cha_bg_5,
+.chrono_pass_modal .cha_bg_6,
+.chrono_pass_modal .cha_bg_7,
+.chrono_pass_modal .cha_bg_8,
+.chrono_pass_modal .cha_bg_9,
+.chrono_pass_modal .cha_bg_10,
+.chrono_pass_modal .cha_bg_11,
+.chrono_pass_modal .cha_bg_12,
+.chrono_pass_modal .cha_bg_13,
+.chrono_pass_modal .cha_bg_14,
+.chrono_pass_modal .cha_bg_15,
+.chrono_pass_modal .cha_bg_16,
+.chrono_pass_modal .cha_bg_17,
+.chrono_pass_modal .cha_bg_18 { display: none; }
+}
+
+@media screen and (max-width: 768px){
+
+}
+
+@media screen and (max-width: 600px){
+.chrono_pass_modal { width: 100%!important; max-width: 100%!important; }
+.chrono_pass_modal > .inner .chrono_pass .title { font-size: 1.313em; padding: 13px 0; }
+.chrono_pass_modal > .inner .chrono_pass .title .list_btn { top: 3px; left: 3px; width: 50px; height: 50px; }
+
+.chrono_pass_modal > .inner .chrono_pass .item_state_w .prev_step { width: 30px; height: 30px; font-size: .938rem; }
+.chrono_pass_modal > .inner .chrono_pass .item_state_w .next_step { width: 30px; height: 30px; font-size: .938rem; }
+.chrono_pass_modal > .inner .chrono_pass .item_state_w .item_state { width: 280px; }
+.chrono_pass_modal > .inner .chrono_pass .item_state_w .item_state .bar_w { height: 16px; border-radius: 16px; }
+
+.chrono_pass_modal > .inner .chrono_pass .item_list_scroll { height: 360px; }
+.chrono_pass_modal > .inner .chrono_pass .item_list_w { padding-left: 90px; }
+.chrono_pass_modal > .inner .chrono_pass .item_list_w .location_line { left: 90px; }
+.chrono_pass_modal > .inner .chrono_pass .item_list_w .location_img { left: -16px; }
+.chrono_pass_modal > .inner .chrono_pass .item_list_w .item_section { padding-left: 30px; }
+.chrono_pass_modal > .inner .chrono_pass .item_list_w .item_section .item_w .txt { font-size: .938em; }
+.chrono_pass_modal > .inner .chrono_pass .item_list_w .item_section .item_w { height: 90px; padding-left: 90px; border-radius: 90px 0 0 90px; }
+.chrono_pass_modal > .inner .chrono_pass .item_list_w .item_section .item_w .img { width: 90px; height: 90px; }
+.chrono_pass_modal > .inner .chrono_pass .item_list_w .item_section .item_w .img_inner { width: 90px; height: 90px; }
+
+.chrono_pass_modal { margin-bottom: 150px!important; }
+.chrono_pass_modal .last_item_w { padding-top: 75px; }
+.chrono_pass_modal .last_item_w .inner { padding-left: 0; text-align: center; }
+.chrono_pass_modal .last_item_w .inner .img { width: 106px; height: 106px; top: -10px; left: 50%; transform: translate(-50%, -100%); }
+.chrono_pass_modal .last_item_w .inner .img_inner { width: 106px; height: 106px; top: -10px; left: 50%; transform: translate(-50%, -100%); }
+.chrono_pass_modal .last_item_w .inner .txt { padding-right: 0; text-align: center; }
+
+.chrono_pass_list_modal > .inner .title { font-size: 1.313em; padding: 13px 0; }
+
+.chrono_pass_list_modal > .inner .item_state_w .item_state { width: 250px; }
+
+.chrono_pass_list_modal > .inner .item_list_w { max-height: 370px; }
+.chrono_pass_list_modal > .inner .item_list_w .item_section { width: 50%; }
+.chrono_pass_list_modal > .inner .item_list_w .item_section .img { width: 106px; height: 106px; }
+.chrono_pass_list_modal > .inner .item_list_w .item_section .txt { width: 106px; }
+
+.chrono_pass_list_modal > .inner .item_list_w .last_item_section { border-radius: 0; }
+.chrono_pass_list_modal > .inner .item_list_w .last_item_section .inner { border-radius: 0; padding: 8px 5px 10px 5px; }
+.chrono_pass_list_modal > .inner .item_list_w .last_item_section .inner .img { display: block; margin: 0 auto 10px auto; }
+
+.chrono_pass_modal .last_item_w .inner .stamp_img { top: auto; right: 0; bottom: 50px; transform: translate(0, 50%); }
+}
+
+@media screen and (max-width: 480px){
+#header .chrono_pass_btn { bottom: 72px; }
+#header .chrono_pass_btn .inner { width: 150px!important; height: 50px!important; border-radius: 50px!important; line-height: 50px!important; }
+#header .chrono_pass_btn .inner .xi { width: 40px!important; height: 40px!important;; line-height: 40px!important; margin-left: 5px!important; margin-top: -5px!important; font-size: 1.375em!important; }
+#header .chrono_pass_btn .inner span { margin-left: 13px!important; font-size: .938em!important; margin-top: -5px!important; }
+
+.chrono_pass_modal > .inner .chrono_pass .item_state_w .item_state { width: 200px; }
+.chrono_pass_modal > .inner .chrono_pass .item_list_w .item_section .item_w .txt { padding-left: 10px; }
+
+.chrono_pass_modal > .inner .chrono_pass .item_list_w { padding-left: 40px; }
+.chrono_pass_modal > .inner .chrono_pass .item_list_w .location_img { display :none; }
+.chrono_pass_modal > .inner .chrono_pass .item_list_w .location_line { left: 40px; }
+.chrono_pass_modal > .inner .chrono_pass .item_list_w .item_section { padding-left: 40px; }
+
+.chrono_pass_list_modal > .inner .item_list_w .item_section .img .fin_div { font-size: .750em; line-height: 1.4; }
+}
+
+@media screen and (max-width: 430px){
+
+}
+
+@media screen and (max-width: 360px){
+.chrono_pass_modal > .inner .chrono_pass .title { font-size: 1.25em; }
+.chrono_pass_modal > .inner .chrono_pass .title .list_btn { top: 4px; left: 4px; width: 44px; height: 44px; }
+.chrono_pass_modal > .inner .chrono_pass .item_state_w .prev_step { width: 26px; height: 26px; font-size: .875rem; }
+.chrono_pass_modal > .inner .chrono_pass .item_state_w .next_step { width: 26px; height: 26px; font-size: .875rem; }
+.chrono_pass_modal > .inner .chrono_pass .item_state_w .item_state { width: 180px; margin: 0 8px; }
+.chrono_pass_modal > .inner .chrono_pass .item_list_w { padding-left: 27px; }
+.chrono_pass_modal > .inner .chrono_pass .item_list_w .item_section { padding-left: 25px; }
+.chrono_pass_modal > .inner .chrono_pass .item_list_w .location_line { left: 27px; }
+.chrono_pass_modal > .inner .chrono_pass .item_list_scroll .top_bg { top: -75px; }
+
+.chrono_pass_list_modal > .inner .title { font-size: 1.25em; }
+}
+
+@media screen and (max-width: 320px){
+
+}
