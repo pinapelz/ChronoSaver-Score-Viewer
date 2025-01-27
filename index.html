@@ -49,15 +49,16 @@ function handleFileUpload(event) {
             let songs = JSON.parse(e.target.result);
             songs = songs.map(song => ({
                 ...song,
-                character_img: song.character_img.replace(/https:\/\/chrono-circle\.com/g, ''),
-                song_img: song.song_img.replace(/https:\/\/chrono-circle\.com/g, ''),
-                character_img_2: song.character_img_2.replace(/https:\/\/chrono-circle\.com/g, ''),
+                character_img: song.character_img.replace(/https:\/\/chrono-circle\.com\/?/g, '').replace(/^\//, ''),
+                song_img: song.song_img.replace(/https:\/\/chrono-circle\.com\/?/g, '').replace(/^\//, ''),
+                character_img_2: song.character_img_2.replace(/https:\/\/chrono-circle\.com\/?/g, '').replace(/^\//, ''),
                 step_list: song.step_list.map(step => ({
                     ...step,
-                    img: step.img.replace(/https:\/\/chrono-circle\.com/g, ''),
-                    is_step_lock: step.is_step_lock ? step.is_step_lock.replace(/https:\/\/chrono-circle\.com/g, '') : ''
+                    img: step.img.replace(/https:\/\/chrono-circle\.com\/?/g, '').replace(/^\//, ''),
+                    is_step_lock: step.is_step_lock ? step.is_step_lock.replace(/https:\/\/chrono-circle\.com\/?/g, '').replace(/^\//, '') : ''
                 }))
             }));
+            
             loadedSongData = songs.reduce((acc, song) => {
                 acc[song.idx] = song;
                 return acc;
